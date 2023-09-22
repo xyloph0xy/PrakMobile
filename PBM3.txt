@@ -124,3 +124,159 @@ fun main() {
     val count: Int = 10
     println("You have $count unread messages.")
 }
+
+fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count = count + 1
+}
+
+fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count = count + 1
+    println("You have $count unread messages.")
+}
+
+You have 10 unread messages.
+You have 11 unread messages.
+
+fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count++
+    println("You have $count unread messages.")
+}
+
+fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count--
+    println("You have $count unread messages.")
+}
+
+fun main() {
+    val trip1: Double = 3.20
+    val trip2: Double = 4.10
+    val trip3: Double = 1.72
+    val totalTripLength: Double = trip1 + trip2 + trip3
+    println("$totalTripLength miles left to destination")
+}
+
+fun main() {
+    val nextMeeting = "Next meeting:"
+    val date = "January 1"
+    val reminder = nextMeeting + date + "at work"
+    println(reminder)
+}
+
+fun main() {
+    println("Say \"hello\"")
+}
+
+fun main() {
+    val notificationsEnabled: Boolean = false
+    println("Are notifications enabled? " + notificationsEnabled)
+}
+
+fun main() {
+    // Create a variable for the number of unread messages.
+    var count = 10
+    println("You have $count unread messages.")
+
+    // Decrease the number of messages by 1.
+    count--
+    println("You have $count unread messages.")
+}
+
+fun main() {
+    birthdayGreeting()
+}
+
+fun birthdayGreeting() {
+    println("Happy Birthday, Rover!")
+    println("You are now 5 years old!")
+}
+
+fun main() {
+    birthdayGreeting()
+}
+
+fun birthdayGreeting(): Unit {
+    println("Happy Birthday, Rover!")
+    println("You are now 5 years old!")
+}
+
+fun birthdayGreeting(): String {
+    val nameGreeting = "Happy Birthday, Rover!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+fun main() {
+    val greeting = birthdayGreeting()
+    println(greeting)
+}
+
+fun birthdayGreeting(name: String): String {
+    val nameGreeting = "Happy Birthday, $name!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+fun main() {
+    println(birthdayGreeting("Rover"))
+}
+
+fun birthdayGreeting(name: String, age: Int): String {
+    val nameGreeting = "Happy Birthday, $name!"
+    val ageGreeting = "You are now $age years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+fun main() {
+    println(birthdayGreeting("Rover", 5))
+    println(birthdayGreeting("Rex", 2))
+}
+
+***
+
+4. praktik 4
+fun main(){
+    println("Use the val keyword when the value doesn't change.")
+    println("Use the var keyword when the value can change.")
+    println("When you define a function, you define the parameters that can be passed to it.")
+    println("When you call a function, you pass arguments for the parameters.")
+}
+
+fun main() { 
+    println("New chat message from a friend")
+}
+
+fun main() {
+    var discountPercentage: Int = 0
+    var offer: String = ""
+    var item = "Google Chromecast"
+    discountPercentage = 20
+    offer = "Sale - Up to $discountPercentage% discount on $item! Hurry up!"
+    
+    println(offer)
+}
+
+fun main() {
+    val numberOfAdults = 20
+    val numberOfKids = 30
+    val total = numberOfAdults + numberOfKids
+    println("The total party size is: $total")
+}
+
+fun main() {
+    val baseSalary = 5000
+    val bonusAmount = 1000
+    val totalSalary = "$baseSalary + $bonusAmount"
+    println("Congratulations for your bonus! You will receive a total of $totalSalary (additional bonus).")
+}
+
+fun main() {
+    val firstNumber = 10
+    val secondNumber = 5
+    val result = firstNumber+secondNumber
+    println("$firstNumber + $secondNumber = $result")
+}
