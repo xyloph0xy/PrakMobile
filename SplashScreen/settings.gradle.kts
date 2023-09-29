@@ -13,5 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SplashScreen"
+rootProject.name = "Splash Screen"
 include(":app")
+ 
