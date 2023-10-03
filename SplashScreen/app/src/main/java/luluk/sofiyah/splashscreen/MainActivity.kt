@@ -41,7 +41,19 @@ fun SplashScreen(navController: NavHostController) {
     val scale = remember {
         Animatable(1f)
     }
+/** Fungsi composable dapat menggunakan remember API untuk menyimpan objek di memori. 
+Nilai yang dihitung oleh remember disimpan dalam Komposisi selama komposisi awal dan nilai yang disimpan ditampilkan selama rekomposisi. 
+remember dapat digunakan untuk menyimpan objek yang dapat diubah dan tidak dapat diubah.
+**/
 
+/**
+Animatable adalah penampung nilai yang secara otomatis 
+menganimasikan nilainya ketika nilai tersebut diubah melalui animateTo
+**/
+
+/** 
+
+**/
     LaunchedEffect(key1 = true) {
         scale.animateTo(
             targetValue = 0.7f,
