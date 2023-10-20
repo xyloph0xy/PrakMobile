@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.luluksofiyah.uts"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.luluksofiyah.uts"
